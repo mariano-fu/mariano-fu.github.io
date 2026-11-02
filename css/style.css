@@ -69,3 +69,23 @@ p {
     color: #1f9e55;
 
 }
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    font-family: "JetBrains Mono", monospace;  
+}
