@@ -67,6 +67,11 @@
                 <div class="panel">
                     <span class="tab">WEB</span>
                     <h3>Web</h3>
+                    <ul class="chips">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
                 </div>
             
 
@@ -83,7 +88,7 @@
                     <span class="tab">HOMELAB</span>
                     <h3>Tools and homelab</h3>
                         <ul class="chips">
-                            <li>Git / Github</li>
+                            <li>Git / GitHub</li>
                             <li>Linux</li>
                             <li>Docker</li>
                         </ul>
@@ -119,8 +124,10 @@
 
                 <article class="panel project">
                     <span class="tab">PROJECT 02</span>
+                    <div class="project-images">
                     <img src="img/arcana-cards.jpeg" alt="Arcana card library showing the major arcana tarot cards">
-                    <img src="img/arcana-client.jpeg" alt="Arcana client page with session history and payments, using test data"
+                    <img src="img/arcana-client.jpeg" alt="Arcana client page with session history and payments, using test data">
+                    </div>
                     <h3>Arcana</h3>
                     <p class="status">status: in progress</p>
                     <p>
@@ -156,10 +163,42 @@
                 </article>
             </div>
         </section>
-        
 
-        <section id="contact"></section>
-        
+        <section id="contact">
+            <h2><span class="prompt-symbol">~$</span> contact</h2>
+
+            <div class="contact-grid">
+                <form class="panel">
+                    <span class="tab">NEW MESSAGE</span>
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="btn">./send</button>
+                </form>
+            
+                <div class="panel">
+                    <span class="tab">LINKS</span>
+                    <p>Open to junior developer opportunites.</p>
+                    <ul>
+                        <li><a href="mailto:luis.fallas.dev@gmail.com">Email</a></li>
+                        <li><a href="https://github.com/mariano-fu">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>       
     </main>
+
+    <footer>
+        <p>&copy; 2026 Luis Fallas · <span class="prompt-symbol">exit 0</span></p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
