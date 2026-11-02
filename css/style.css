@@ -173,3 +173,18 @@ section {
     display: grid;
     gap: 1.5rem;
 }
+
+.project img {
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.project-images {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.project-images img {
+    width: 50%;
+}
