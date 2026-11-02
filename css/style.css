@@ -185,7 +185,7 @@ section {
     gap: 0.5rem;
 }
 
-.project-images img {
+.project-images a {
     width: 50%;
 }
 
@@ -252,4 +252,18 @@ footer {
 
 footer p {
     margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 5rem 0;
+    }
+
+    .about-grid, .contact-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills-grid, .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
