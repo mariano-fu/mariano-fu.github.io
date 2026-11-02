@@ -108,3 +108,68 @@ section {
     flex-direction: column;
     justify-content: center;
 }
+
+.panel {
+    position: relative;
+    border: 1px solid #1f9e55;
+    border-radius: 4px;
+    padding: 1.25rem;
+    box-shadow: 0 0 14px rgba(61, 255, 138, 0.2), inset 0 0 14px rgba(61, 255, 138, 0.08);
+}
+
+.tab {
+    position: absolute;
+    top: -0.7rem;
+    left: 1rem;
+    background: #3dff8a;
+    color: #03200f;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06rem;
+    padding: 0.1rem 0.5rem;
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.chips li {
+    font-size: 0.8rem;
+    border: 1px solid #1f5a35;
+    color: #b8f5cf;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid #3dff8a;
+    color: #3dff8a;
+    background: transparent;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #3dff8a ;
+    color: #03200f;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.about-grid, .skills-grid, .projects-grid, .contact-grid {
+    display: grid;
+    gap: 1.5rem;
+}
