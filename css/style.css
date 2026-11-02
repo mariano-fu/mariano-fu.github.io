@@ -282,3 +282,18 @@ footer p {
 .panel:hover {
     box-shadow: 0 0 22px rgba(61, 255, 138, 0.35), inset 0 0 14px rgba(61, 255, 138, 0.08);
 }
+
+.contact-links a {
+    border-bottom: 1px dashed #1f9e55;
+    padding-bottom: 2px;
+}
+
+.contact-links a:hover, .contact-links a:focus {
+    border-bottom-style: solid;
+    border-bottom-color: #3dff8a;
+}
+
+nav a:hover, nav a:focus {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
