@@ -1,3 +1,21 @@
+* {
+    box-sizing : border-box; 
+    margin: 0; 
+}
+
 body {
-    background-color:skyblue;
+    background: #07090c;
+    color: #cfd6dd;
+    font-family: "Inter", sans-serif;
+    line-height: 1.6; 
+}
+
+a {
+    text-decoration: none ;
+    color: #3dff8a;    
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
