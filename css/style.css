@@ -19,3 +19,30 @@ img {
     max-width: 100%;
     display: block;
 }
+
+h1 {
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    font-weight: 600;
+    color: #eafff1;
+    line-height: 1.1;
+    text-shadow: 0 0 10px #3dff8a,0 0 30px #1b8a4a;
+}
+
+h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: clamp(1.3rem, 4vw, 1.8rem);
+    color: #e9eef2;
+    border-bottom: 1px dashed #2a333d;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #e9eef2;
+    margin-bottom: 1.5rem;
+}
+
+.prompt, .tab, .status, .chips li, .btn, code {
+    font-family: "JetBrains Mono", monospace;
+}
