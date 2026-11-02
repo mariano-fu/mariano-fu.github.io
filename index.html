@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luis Fallas Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -24,7 +27,7 @@
     <main>
         <section id="hero">
             <p class="prompt">
-                <span class ="prompt-user">luis@portfolio</span><span class="prompt-symbol">~$</span> whoami            
+                <span class="prompt-user">luis@portfolio</span><span class="prompt-symbol">:~$</span> whoami            
             </p>
 
             <h1>Luis Fallas</h1>
@@ -39,14 +42,14 @@
             </div>
         </section>
 
-        <section id="about"></section>
-            <h2><span class="prompt-symbol">~$</span>about</h2>
+        <section id="about">
+            <h2><span class="prompt-symbol">~$</span> about</h2>
 
             <div class="about-grid">
                 <article class="panel">
                     <span class="tab">PROFILE</span>
-                    <p>first paragraph</p>
-                    <p>second paragraph</p>
+                    <p>For years my job has been bridging the language gap between English and Spanish speakers as an interpreter. Now I'm learning a new language: code. My day job sits close to tech: I work in computational linguistics, helping with the training of AI models for interpreting and creating tools for supporting new interpreters. </p>
+                    <p>These days I'm studying at Fundatec and spending my evenings in a terminal, building web apps and running my own self-hosted homelab. I'm looking for my first developer role.</p>
                 </article>
             
 
@@ -57,9 +60,106 @@
             </div>
         </section>
 
-        <section id="skills"></section>
-        <section id="projects"></section>
+        <section id="skills">
+            <h2><span class="prompt-symbol">~$</span> skills</h2>
+
+            <div class="skills-grid">
+                <div class="panel">
+                    <span class="tab">WEB</span>
+                    <h3>Web</h3>
+                </div>
+            
+
+                <div class="panel">
+                    <span class="tab">CODE</span>
+                    <h3>Programming</h3>
+                        <ul class="chips">
+                            <li>Python</li>
+                            <li>Java</li>
+                        </ul>
+                </div>
+
+                <div class="panel">
+                    <span class="tab">HOMELAB</span>
+                    <h3>Tools and homelab</h3>
+                        <ul class="chips">
+                            <li>Git / Github</li>
+                            <li>Linux</li>
+                            <li>Docker</li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2><span class="prompt-symbol">~$</span> projects</h2>
+
+            <div class="projects-grid">
+                <article class="panel project">
+                    <span class="tab">PROJECT 01</span>
+                    <img src="img/interpascend-search.png" alt="InterpAscend search results showing English and Spanish medical terms">
+                    <h3>InterpAscend</h3>
+                    <p class="status">status: archived</p>
+                    <p>
+                       A bilingual terminology platform I built for interpreters: search EN⇄ES across multiple
+        glossaries, get AI-generated suggestions when a term is missing, and study with spaced
+        repetition. It reached ~230 monthly users in 11 countries before I archived it to focus
+        on my studies. 
+                    </p>
+                    <ul class="chips">
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>PostgreSQL</li>
+                        <li>Docker</li>
+                        <li>Google Cloud Run</li>
+                        <li>OpenAI API</li>
+                    </ul>
+                    <a href="https://github.com/mariano-fu/InterpAscend" class="btn" target="_blank" rel="noopener">View code</a>
+                </article>
+
+                <article class="panel project">
+                    <span class="tab">PROJECT 02</span>
+                    <img src="img/arcana-cards.jpeg" alt="Arcana card library showing the major arcana tarot cards">
+                    <img src="img/arcana-client.jpeg" alt="Arcana client page with session history and payments, using test data"
+                    <h3>Arcana</h3>
+                    <p class="status">status: in progress</p>
+                    <p>
+                       An offline-first app for a small tarot reading business. It tracks clients, readings, payments and natal chart info. Built in Spanish, for use on both laptop and phone, with optional sync to my homelab.
+                    </p>
+                    <ul class="chips">
+                        <li>React</li>
+                        <li>TypeScript</li>
+                        <li>PWA</li>
+                        <li>Django REST</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                    <a href="https://github.com/mariano-fu/arcana" class="btn" target="_blank" rel="noopener">View code</a>
+                </article>
+
+                <article class="panel project">
+                    <span class="tab">~/homelab/</span>
+                    <h3>Homelab</h3>
+                    <p class="status">status: running</p>
+                    <p>
+                        A home server where I self-host my own tools and practice running real services.
+                    </p>
+                    <ul class="homelab-list">
+                        <li><span class="prompt-symbol">&gt;</span> Paperless-ngx: scanned documents, OCR and a searchable archive</li>
+                        <li><span class="prompt-symbol">&gt;</span> Jellyfin: self-hosted media server</li>
+                        <li><span class="prompt-symbol">&gt;</span> Tailscale: private remote access from anywhere</li>
+                    </ul>
+                    <ul class="chips">
+                        <li>Linux</li>
+                        <li>Docker</li>
+                        <li>Tailscale</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        
+
         <section id="contact"></section>
+        
     </main>
 </body>
 </html>
