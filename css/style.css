@@ -40,9 +40,32 @@ h2 {
 h3 {
     font-size: 1.2rem;
     color: #e9eef2;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .prompt, .tab, .status, .chips li, .btn, code {
     font-family: "JetBrains Mono", monospace;
+}
+
+.prompt-user {
+    color: #3dff8a;
+}
+
+.prompt-symbol {
+    color: #1f9e55;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    max-width: 55ch;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.status {
+    font-size: 0.85rem;
+    color: #1f9e55;
+
 }
